@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-image: url("images/background.png");
+}
+
+.section {
+    background-image: url("images/form-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px;
+    text-align: center;
+    display: flex;
+    margin-top: 70px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.form {
+    flex: 0 0 75%;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 35px;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.short-input {
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-right: 80px;
+}
+
+.long-label h2 {
+    margin-left: 396px;
+    text-align: left;
+}
+
+.long-input {
+    width: 32%;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+.names label {
+    display: flex; /* Use flexbox to control the layout */
+    flex-direction: column; /* Stack the elements vertically */
+}
+
+.names label:first-child {
+    margin-right: 30px;
+}
+
+.check .chkbox {
+    margin-right: 350px;
+    margin-top: 20px;
+}
+
+.check h2 {
+    margin-left: 420px;
+    margin-top: -20px;
+}
+
+.btn {
+    background-color: #ad3c33;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}

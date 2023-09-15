@@ -1,0 +1,28 @@
+body {
+    background-image: url('01.Forum_Resources/imagesound.jpg'); /* Replace 'your-image-url.jpg' with the actual URL of your image */
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.container1,
+.container2,
+.container3 {
+    background-color: white;
+    padding: 50px;
+    margin: 30px 40px;
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.container2,
+.container3 {
+    clear: left;
+}
+
+.container3 {
+    height: calc(100% - 140px); /* Subtract the combined heights of container1 and container2 */
+}
