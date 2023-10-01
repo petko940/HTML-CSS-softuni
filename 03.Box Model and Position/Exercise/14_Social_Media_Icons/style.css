@@ -12,6 +12,7 @@ li {
 a {
     border-radius: 50%;
     border: 15px solid #EEEEEE;
+<<<<<<< HEAD
     color: gray;
 }
 
@@ -33,5 +34,13 @@ ul li:nth-child(4) a:hover {
 
 ul li:nth-child(5) a:hover {
     color: #007BB6;
+=======
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    border-radius: 30%;
+    border: 15px solid #0A2C48;
+>>>>>>> 58422e43afbcd81825e86f4d9492f5481668b4ee
 }
 
