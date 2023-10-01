@@ -1,0 +1,48 @@
+/* • section>
+◦ Set the position to absolute
+◦ Use the coordinates: 250px and 180px to position the frame correctly
+• <h3>
+◦ Font size: 16px
+◦ Margin: 0px
+• <span>
+◦ Padding left: 3px
+◦ Text color: gray
+◦ Font size: 14px
+• <div>
+• Set the position to relative
+• Use the coordinates: 50px and 8px to position the text correctly    • section>
+        ◦ Set the position to absolute
+        ◦ Use the coordinates: 250px and 180px to position the frame correctly
+    • <h3>
+        ◦ Font size: 16px
+        ◦ Margin: 0px
+    • <span>
+        ◦ Padding left: 3px
+        ◦ Text color: gray
+        ◦ Font size: 14px
+    • <div>
+    • Set the position to relative
+    • Use the coordinates: 50px and 8px to position the text correctly */
+
+section {
+    position: absolute;
+    top: 236px;
+    left: 175px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+span {
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
+}
+
+div {
+    position: relative;
+    top: -49px;
+    left: 7px;
+}
