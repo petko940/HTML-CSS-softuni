@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    font-family: Helvetica, sans-serif;
+}
+
+article {
+    width: 47%;
+}
+
+aside {
+    width: 47%;
+    display: inline-block;
+}
+
+img {
+    width: 50%;
+}
+
+a {
+    width: 31%;
+    display: flex;
+}

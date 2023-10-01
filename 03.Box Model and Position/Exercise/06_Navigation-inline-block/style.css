@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 3em;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 2em;
+    color: #099A2E;
+    font-size: 22px;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    transform: translateY(-130%);
+}
+
+nav h1 {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+hr {
+    margin: 2em 0;
+}
