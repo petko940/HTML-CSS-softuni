@@ -23,7 +23,6 @@ header i {
 main .first {
     width: 100%;
     height: 610px;
-    position: relative;
     background-image: url("image/fitness-main.jpg");
     background-size: cover;
     background-position: center;
