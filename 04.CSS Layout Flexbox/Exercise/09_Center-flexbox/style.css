@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 20em;
+    height: 8em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
