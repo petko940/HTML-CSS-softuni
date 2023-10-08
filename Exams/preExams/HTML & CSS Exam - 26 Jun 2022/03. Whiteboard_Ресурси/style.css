@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+body {
+    font-family: "PT Sans", sans-serif;
+    margin: 0 100px;
+}
+
+header {
+    height: 590px;
+    background-image: url("image/computer-main.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+header::before {
+    content: "";
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+header nav {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 2em 9em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+header nav h2 i {
+    font-size: 1.2em;
+}
+
+header .title {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: 400;
+    margin-bottom: 30px ;
+}
+
+header p {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    width: 22em;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+header button {
+    position: relative;
+    z-index: 1;
+    padding: 1em 2em;
+    background-color: #00D08E;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 6em;
+}
+
+header h3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 5px black
+}
+
+header h3 i {
+    margin-left: 10px;
+}
