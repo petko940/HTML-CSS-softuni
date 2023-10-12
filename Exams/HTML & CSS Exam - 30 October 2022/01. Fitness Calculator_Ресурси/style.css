@@ -20,6 +20,7 @@ body {
     border-bottom: black 1px solid;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    height: 652px;
 }
 
 .image img {
