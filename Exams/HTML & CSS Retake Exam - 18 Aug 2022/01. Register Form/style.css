@@ -2,91 +2,90 @@
 
 body {
     font-family: "Mulish", sans-serif;
-    background-image: url("images/background.png");
 }
 
-.section {
-    background-image: url("images/form-background.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 90px;
-    text-align: center;
-    display: flex;
-    margin-top: 70px;
-    overflow: hidden;
-    border-radius: 20px;
+.bg img {
+    width: 100%;
+    height: auto;
 }
 
-.form {
-    flex: 0 0 75%;
+section {
+    width: 1000px;
+    height: 666px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section img {
+    border-radius: 4em;
+    box-shadow: 15px 15px 16px -10px black;}
+
+.wrap {
+    padding: 4em 29em 5em 5em;
 }
 
 h1 {
-    font-size: 30px;
     text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
     letter-spacing: 3px;
-    margin-top: 35px;
 }
 
-.names {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.fn {
+    margin: 8em 5em;
 }
 
-.short-input {
-    width: 100%;
-    height: 35px;
-    border-radius: 50px;
-    border-width: 1px;
+.ln {
+    margin: 8em 21em;
 }
 
-h2 {
-    font-size: 15px;
-    font-weight: lighter;
-    margin-right: 80px;
+input[type="text"],
+input[type="email"],
+input[type="password"]  {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5em;
 }
 
-.long-label h2 {
-    margin-left: 396px;
-    text-align: left;
+.big-input {
+    margin: 15em 5em;
 }
 
-.long-input {
-    width: 32%;
-    height: 35px;
-    border-radius: 50px;
-    border-width: 1px;
+input[type="email"],
+input[type="password"] {
+    padding: 1em 9em;
 }
 
-.names label {
-    display: flex; /* Use flexbox to control the layout */
-    flex-direction: column; /* Stack the elements vertically */
+.big-input.password {
+    margin: 22em 5em;
 }
 
-.names label:first-child {
-    margin-right: 30px;
+.big-input.cpassword {
+    margin: 29em 5em;
 }
 
-.check .chkbox {
-    margin-right: 350px;
-    margin-top: 20px;
+.big-input.chkbox {
+    margin: 36em 5em;
 }
 
-.check h2 {
-    margin-left: 420px;
-    margin-top: -20px;
+.i {
+    margin-right: 1em;
 }
 
-.btn {
-    background-color: #ad3c33;
+span {
+    padding-left: 9px;
+}
+
+button {
+    padding: 1em 3em;
+    margin: 38em 13em;
+    background-color: #AE3C33;
     color: white;
-    border-radius: 50px;
-    border: none;
-    margin-top: 20px;
-    width: 20%;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5em;
 }

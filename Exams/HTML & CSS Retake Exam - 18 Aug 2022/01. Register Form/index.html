@@ -1,55 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<section class="section">
-    <div class="form">
-        <h1>Registration Form</h1>
+    <div class="bg">
+        <img src="/Exams/HTML & CSS Retake Exam - 18 Aug 2022/01. Register Form/images/background.png" alt="">
 
-        <div class="names">
-            <label>
-                <h2>First Name</h2>
-                <input type="text" class="short-input">
-            </label>
-            <label>
-                <h2>Last Name</h2>
-                <input type="text" class="short-input">
-            </label>
-        </div>
+        <section>
+            <img src="/Exams/HTML & CSS Retake Exam - 18 Aug 2022/01. Register Form/images/form-background.png" alt="">
+            <section class="wrap">
+                <h1>Registration Form</h1>
 
-        <div class="long-label">
-            <h2>Email</h2>
-            <label>
-                <input type="email" class="long-input">
-            </label>
-            <h2>Password</h2>
-            <label>
-                <input type="password" class="long-input">
-            </label>
-            <h2>Confirm Password</h2>
-            <label>
-                <input type="password" class="long-input">
-            </label>
+                <section class="input fn">
+                    <label for="fn">First Name</label>
+                    <br>
+                    <input type="text" name="fn" id="fn">
+                </section>
 
-            <div class="check">
-                <label>
-                    <input type="checkbox" class="chkbox">
-                </label>
-                <h2>I accept the Terms of Use & Privacy Policy.</h2>
-            </div>
-            <button class="btn">Register Now</button>
-        </div>
+                <section class="input ln">
+                    <label for="ln">Last Name</label>
+                    <br>
+                    <input type="text" name="ln" id="ln">
+                </section>
+
+                <section class="big-input">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </section>
+
+                <section class="big-input password">
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" name="password" id="password">
+                </section>
+
+                <section class="big-input cpassword">
+                    <label for="cpassword">Confirm Password</label>
+                    <br>
+                    <input type="password" name="cpassword" id="cpassword">
+                </section>
+
+                <section class="big-input chkbox">
+                    <input type="checkbox" name="chkbox" id="chkbox">
+                    <span><span class="i">I</span> accept the Terms of Use & Privacy Policy.</span>
+                </section>
+
+                <section>
+                    <button>Register Now</button>
+                </section>
+
+            </section>
+        </section>
     </div>
 
-</section>
-
 </body>
+
 </html>
