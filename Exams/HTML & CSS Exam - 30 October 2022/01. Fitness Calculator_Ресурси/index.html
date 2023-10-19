@@ -1,79 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Fitness Calculator</title>
 </head>
+
 <body>
 
-<section class="main">
-    <div class="container">
-        <div class="image">
+    <section class="wrapper">
+        <section class="left">
             <img src="image/calculator.png" alt="">
-        </div>
-    </div>
+        </section>
 
-    <div class="container">
-        <div class="bord">
-            <div class="title">
-                <p>FITNESS CALCULATOR</p>
-            </div>
-            <div class="units-button">
-                <button class="standart">Standart units (US)</button>
-                <button class="metric">Metric units</button>
-            </div>
+        <section class="right">
+            <h1>FITNESS CALCULATOR</h1>
 
-            <div class="text">
-                <p>Gender</p>
-            </div>
+            <button>Standart units (US)</button>
+            <button>Metric units</button>
+
+            <h2>Gender</h2>
 
             <div class="gender">
-                <label>
-                    <select class="gender-choice">
-                        <option>Female</option>
-                        <option>Male</option>
-                        <option>Other</option>
-                    </select>
-                </label>
-                <label>
-                    <input class="gender-choice" type="number" placeholder="Years...">
-                </label>
+                <select>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <input type="text" placeholder="Years...">
             </div>
 
-            <div class="text">
-                <p>Weight</p>
-            </div>
+            <h2>Weight</h2>
 
-            <div class="weight">
-                <label>
-                    <input class="weight" type="text" placeholder="Pounds...">
-                </label>
-            </div>
+            <input type="text" name="pounds" id="pounds" placeholder="Pounds...">
 
-            <div class="text">
-                <p>Height</p>
-            </div>
+            <h2>Height</h2>
 
-            <div class="height">
-                <label>
-                    <input class="asd" type="text" placeholder="Feet...">
-                </label>
-                <label>
-                    <input class="asd" type="text" placeholder="Inches...">
-                </label>
-            </div>
+            <input type="text" name="feet" id="feet" placeholder="Feet...">
+            <input type="text" name="inches" id="inches" placeholder="Inches...">
 
-            <div class="calc">
-                <button class="calculate">Calculate</button>
-            </div>
+            <a href="#">Calculate</a>
 
-    </div>
-        </div>
-</section>
+        </section>
+    </section>
 
 </body>
+
 </html>
